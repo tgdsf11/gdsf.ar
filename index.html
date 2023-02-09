@@ -13,6 +13,7 @@
     <title>GdSF Estratégia</title>
 </head>
 <body>
+<div id="preloader"></div>
 <!--NavBar-->
 <nav class="navbar fixed-top navbar-expand-lg bg-light">
   <div class="container-fluid">
@@ -29,7 +30,7 @@
           <a class="nav-link" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#palabras">Palabras del Director</a>
+          <a class="nav-link" href="#palabras">Unas palabras</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#seccion-servicios">Servicios</a>
@@ -41,7 +42,7 @@
 </nav>
                   
 <!--SECCION INICIO-->
-    <section id="inicio" style="max-height: 75vh;">                
+    <section id="inicio" style="max-height: 80vh;">                
         <div class="presentacion">
             <p class="servicios-espanol">Servicios Jurídicos y Consultoría Estratégica</p>  
             <br>               
@@ -60,7 +61,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Una empresa no es más que un organizmo vivo.</h5>
                         <p class="card-text">"El mayor costo que tiene una inversión, de forma implícita, es el costo de aprendizaje. Puede llegar desde a duplicar la inversión, hasta escenarios mucho peores. <br><br>El correcto cálculo financiero, estratégico, y de negocio, y la justa redacción legal, permiten implementar y desarrollar un negocio de forma sistemática, controlada, y armoniosa, cumpliendo tanto el rol económico de la empresa, que es generar riqueza, como así también el rol social de la empresa, que es asegurar el bienestar del personal como del ambiente laboral para un correcto desarrollo individual y grupal."</p>
-                        <p class="card-text"><small class="text-muted">Tomás Guzmán de San Félix <br> Socio Director</small></p>    
+                        <p class="card-text"><small class="text-muted">Tomás Guzmán de San Félix <br> Fundador</small></p>    
                     </div>
                 </div>
             </div>
@@ -128,10 +129,16 @@
         <a class="nav-link active" aria-current="page" href="mailto:t@gdsf.ar">Email: t@gdsf.ar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="mailto:t@gdsf.ar">WhatsApp: +54 9 011 4198-7946</a>
+        <a class="nav-link" href="https://api.whatsapp.com/send?phone=5491141987946">WAP: +54 9 011 4198-7946</a>
       </li>
     </ul>
-    
+ 
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function (){
+        loader.style.display= "none";
+      })
+    </script>    
 <script>
     const nav = document.querySelector("header");
 

@@ -124,6 +124,7 @@ justify-content:center;
 
 .servicios {
     display: flex inline-block;
+    margin-bottom: 10vh;
     
 }
 .accordion-body {
@@ -141,6 +142,14 @@ justify-content:center;
     max-width: 50vw;
 }
 
+#preloader{
+    background: white url(img/loading-animations-preloader-gifs-ui-ux-effects-10.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 
+}
 
 
