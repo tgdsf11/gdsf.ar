@@ -1,59 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es">  
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
     <link rel="stylesheet" href="inicio.css">
     <link rel="stylesheet" href="sobre-nosotros.css">
     <link rel="stylesheet" href="servicios.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>GdSF Estrategia</title>
+    <link rel="stylesheet" href="sobre-nosotros.css">
+    <title>GdSF Estratégia</title>
 </head>
 <body>
-                <nav class="navbar navbar-expand-lg bg-light ">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#"><img src="img/Mesa de trabajo 1.png" >GdSF Estratégia</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              CONTACTO
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">E-mail
-                              </a></li>
-                              <li><a class="dropdown-item" href="#">Whats-App</a></li>
-                              <li><a class="dropdown-item" href="#">Reunión</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <!--ICONOS DE LAS REDES SOCIALES-->
-                    <div class="redes">
-                        <!-- <a href="#"><i class="fa-brands fa-youtube"></i></a>-->
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    </div> 
-                      </div>
-                    
-                    </div>
-                  </nav>
+<!--NavBar-->
+<nav class="navbar fixed-top navbar-expand-lg bg-light">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="img/Mesa de trabajo 1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          GdSF Estratégia
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#palabras">Palabras del Director</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seccion-servicios">Servicios</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
                   
-    <!--SECCION INICIO-->
-    <section id="inicio">                
+<!--SECCION INICIO-->
+    <section id="inicio" style="max-height: 75vh;">                
         <div class="presentacion">
             <p class="servicios-espanol">Servicios Jurídicos y Consultoría Estratégica</p>  
             <br>               
@@ -61,9 +49,9 @@
         </div>
     </section>
 
-    <!--SECCION SOBRE NOSOTROS-->
-    <div class="anuncios">
-        <div class="card mb-3" style="max-width: 75vw;">
+<!--SECCION SOBRE NOSOTROS-->
+    <div class="anuncios" id="palabras">
+        <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="img/Arbol.jpg" class="img-fluid rounded-start" alt="...">
@@ -72,33 +60,19 @@
                     <div class="card-body">
                         <h5 class="card-title">Una empresa no es más que un organizmo vivo.</h5>
                         <p class="card-text">"El mayor costo que tiene una inversión, de forma implícita, es el costo de aprendizaje. Puede llegar desde a duplicar la inversión, hasta escenarios mucho peores. <br><br>El correcto cálculo financiero, estratégico, y de negocio, y la justa redacción legal, permiten implementar y desarrollar un negocio de forma sistemática, controlada, y armoniosa, cumpliendo tanto el rol económico de la empresa, que es generar riqueza, como así también el rol social de la empresa, que es asegurar el bienestar del personal como del ambiente laboral para un correcto desarrollo individual y grupal."</p>
-                        <p class="card-text"><small class="text-muted">Tomás Guzmán de San Félix <br> Socio Director / Fundador</small></p>    
+                        <p class="card-text"><small class="text-muted">Tomás Guzmán de San Félix <br> Socio Director</small></p>    
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--SECCION SOBRE MI-->
-    <!-- <section id="sobremi">
-        <div class="contenedor-foto">
-            <img src="img/foto-tomas.jpg" alt="">
-        </div>
-        <div class="sobremi">
-            <p class="titulo-seccion">Sobre Mi</p>
-            <h2>Hola, soy <span>Tomás Guzmán de San Félix</span></h2>
-            <h3>Abogado, especializado en Finanzas Corporativas, Desarrollador Full Stack</h3>
-            <p>El autor cuenta con una formación integral para el desarrollo de negocios. Abogado recibido en la Ciudad de Buenos Aires, con orientación y formación en matemática financiera, y con experiencia en el desarrollo, innovación y comercialización de productos.</p>
-            <p>Agrego un texto mas</p>
-            <a href="#">Descargar CV</a>
-        </div>
-    </section> -->
-
-    <div class="servicios" id="servicios">
+<div class="fondo-servicios" id="seccion-servicios">
+  <div class="servicios" id="servicios">
         <div class="titulo-servicios">
             <h1>Nuestros Servicios</h1>
         </div>
-        <div class="accordion accordion-flush" id="accordionFlushExample" style="max-width: 75vw;">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -107,10 +81,10 @@
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Consultoría Jurídica</div>
-                <div class="accordion-body">Asesoria Integral sobre Derecho Cannabico Argentino y Global</div>
+                <div class="accordion-body">Asesoría Integral sobre Derecho Cannábico Argentino</div>
                 <div class="accordion-body">Constitución de Sociedades Comerciales y Asociaciones Civiles</div>
                 <div class="accordion-body">Contratos</div>
-                <div class="accordion-body">Derecho Administrativo. Gestion de Permisos Administrativos    
+                <div class="accordion-body">Derecho Administrativo. Gestión de Permisos Administrativos    
                 </div>
                 <div class="accordion-body">
                     Negociaciones / Mediaciones
@@ -124,7 +98,7 @@
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Redaccion de Planes de Negocio.</div>
+                <div class="accordion-body">Redacción de Planes de Negocio.</div>
                 <div class="accordion-body">Creación y Análisis de Indicadores de Performance Internos.</div>
                 <div class="accordion-body">Planes de Mejora Continua sobre Procesos, Productos o Servicios.</div>
                 <div class="accordion-body">Planes de Innovacion Tecnologica. Integración. Inducción de Personal.</div>
@@ -148,51 +122,15 @@
             </div>
           </div>
     </div>
-
-    <!-- SECCION SERVICIOS 
-    <section id="servicios">
-        <h3 class="titulo-seccion">SERVICIOS</h3>
-        <div class="fila">
-            <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-brain"></i></i></span>
-                <h4>Ingeniería de Negocios</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li>Redaccion de Planes de Negocio.</li>
-                    <li>Creación y Análisis de Indicadores de Performance Internos.</li>
-                    <li>Planes de Mejora Continua sobre Procesos, Productos o Servicios.</li>
-                    <li>Planes de Innovacion Tecnologica. Integración. Inducción de Personal.</li>
-                    <li>Coaching Ejecutivo en Management y Liderazgo</li>                   
-                </ul>
-            </div>
-            <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-arrow-up-right-dots"></i></span>
-                <h4>Desarrollo Comercial</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li>Ejecución de Planes de Negocio</li>
-                    <li>Análisis de la Competencia y de Mercado</li>
-                    <li>Estrategias de Comercialización "Go To Market". Diseño e Implementación</li>
-                    <li>Planes de Mejora Continua sobre Productos o Servicios.</li>
-                    <li>Desarrollo de Identidad de Marca y Diferenciación respecto de la Competencia</li>                   
-                </ul>
-            </div>
-            <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-scale-balanced"></i></span>
-                <h4>Servicios Jurídicos</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li>Consultoría Jurídica</li>
-                    <li>Asesoria Integral sobre Derecho Cannabico Argentino y Global</li>
-                    <li>Constitución de Sociedades Comerciales y Asociaciones Civiles</li>
-                    <li>Contratos</li>
-                    <li>Derecho Administrativo. Gestion de Permisos Administrativos (INASE, REPROCANN, ARICCAME, ANMAT, IGJ, AFIP, etc...)</li>                  
-                    <li>Negociaciones / Mediaciones</li>                    
-                </ul>
-            </div>
-        </div>
-    </section>
-    -->
+    <ul class="nav justify-content-center fixed-bottom" id="nav-inferior" style="background-color: black;">
+      <li class="fondo-texto"><a>No dudes en ponerte en CONTACTO con nosotros!</a></li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="mailto:t@gdsf.ar">Email: t@gdsf.ar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:t@gdsf.ar">WhatsApp: +54 9 011 4198-7946</a>
+      </li>
+    </ul>
     
 <script>
     const nav = document.querySelector("header");
@@ -205,8 +143,7 @@
             nav.classList.remove("active_nav");
         }
     })
-</script>
-
+  </script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
