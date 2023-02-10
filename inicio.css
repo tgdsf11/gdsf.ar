@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa';
+    font-size: 3vh;
 }
 
 html{
@@ -19,6 +20,7 @@ html{
     background-position: center;
     width: 100%;
     height: 100vh;
+    font-size: 1vh;
 }
 
 header{
@@ -79,9 +81,10 @@ nav{
 }
 
 #inicio .presentacion{
-width: 100%;
+width: 90%;
 height: 100vh;
 margin: auto;
+padding-left: 20vw;
 display: flex;
 flex-direction: column;
 align-items: right;
@@ -90,7 +93,7 @@ justify-content:center;
 
 
 #inicio .presentacion p {
-    font-size: 5vh;
+    font-size: 3vw;
     text-align: right;
     color: #f3f3f3;
     padding: 1vh;
